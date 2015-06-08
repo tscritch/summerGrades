@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA8F59351B0C087300163C66 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8F59341B0C087300163C66 /* AppDelegate.swift */; };
+		EA8F59371B0C087300163C66 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8F59361B0C087300163C66 /* ViewController.swift */; };
+		EA8F59391B0C087300163C66 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA8F59381B0C087300163C66 /* Images.xcassets */; };
+		EA8F593C1B0C087300163C66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA8F593A1B0C087300163C66 /* Main.storyboard */; };
+		EA8F59481B0C087300163C66 /* summerGradesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8F59471B0C087300163C66 /* summerGradesTests.swift */; };
+		EA8F59521B0C09F000163C66 /* AICourseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8F59511B0C09F000163C66 /* AICourseViewController.swift */; };
+		EA8F59541B0C0A2300163C66 /* ALCourseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8F59531B0C0A2300163C66 /* ALCourseViewController.swift */; };
+		EA8F59561B0C0A3D00163C66 /* SECourseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8F59551B0C0A3D00163C66 /* SECourseViewController.swift */; };
+		EA8F59581B0C0C3C00163C66 /* SAandDCourseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8F59571B0C0C3C00163C66 /* SAandDCourseViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EA8F59421B0C087300163C66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA8F59271B0C087300163C66 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA8F592E1B0C087300163C66;
+			remoteInfo = summerGrades;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EA8F592F1B0C087300163C66 /* summerGrades.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = summerGrades.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA8F59331B0C087300163C66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA8F59341B0C087300163C66 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EA8F59361B0C087300163C66 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EA8F59381B0C087300163C66 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EA8F593B1B0C087300163C66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EA8F59411B0C087300163C66 /* summerGradesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = summerGradesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA8F59461B0C087300163C66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA8F59471B0C087300163C66 /* summerGradesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = summerGradesTests.swift; sourceTree = "<group>"; };
+		EA8F59511B0C09F000163C66 /* AICourseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AICourseViewController.swift; sourceTree = "<group>"; };
+		EA8F59531B0C0A2300163C66 /* ALCourseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ALCourseViewController.swift; sourceTree = "<group>"; };
+		EA8F59551B0C0A3D00163C66 /* SECourseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SECourseViewController.swift; sourceTree = "<group>"; };
+		EA8F59571B0C0C3C00163C66 /* SAandDCourseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SAandDCourseViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA8F592C1B0C087300163C66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA8F593E1B0C087300163C66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA8F59261B0C087300163C66 = {
+			isa = PBXGroup;
+			children = (
+				EA8F59311B0C087300163C66 /* summerGrades */,
+				EA8F59441B0C087300163C66 /* summerGradesTests */,
+				EA8F59301B0C087300163C66 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA8F59301B0C087300163C66 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA8F592F1B0C087300163C66 /* summerGrades.app */,
+				EA8F59411B0C087300163C66 /* summerGradesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA8F59311B0C087300163C66 /* summerGrades */ = {
+			isa = PBXGroup;
+			children = (
+				EA8F59341B0C087300163C66 /* AppDelegate.swift */,
+				EA8F59361B0C087300163C66 /* ViewController.swift */,
+				EA8F59511B0C09F000163C66 /* AICourseViewController.swift */,
+				EA8F59531B0C0A2300163C66 /* ALCourseViewController.swift */,
+				EA8F59551B0C0A3D00163C66 /* SECourseViewController.swift */,
+				EA8F59571B0C0C3C00163C66 /* SAandDCourseViewController.swift */,
+				EA8F59381B0C087300163C66 /* Images.xcassets */,
+				EA8F593A1B0C087300163C66 /* Main.storyboard */,
+				EA8F59321B0C087300163C66 /* Supporting Files */,
+			);
+			path = summerGrades;
+			sourceTree = "<group>";
+		};
+		EA8F59321B0C087300163C66 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA8F59331B0C087300163C66 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EA8F59441B0C087300163C66 /* summerGradesTests */ = {
+			isa = PBXGroup;
+			children = (
+				EA8F59471B0C087300163C66 /* summerGradesTests.swift */,
+				EA8F59451B0C087300163C66 /* Supporting Files */,
+			);
+			path = summerGradesTests;
+			sourceTree = "<group>";
+		};
+		EA8F59451B0C087300163C66 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA8F59461B0C087300163C66 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA8F592E1B0C087300163C66 /* summerGrades */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA8F594B1B0C087300163C66 /* Build configuration list for PBXNativeTarget "summerGrades" */;
+			buildPhases = (
+				EA8F592B1B0C087300163C66 /* Sources */,
+				EA8F592C1B0C087300163C66 /* Frameworks */,
+				EA8F592D1B0C087300163C66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = summerGrades;
+			productName = summerGrades;
+			productReference = EA8F592F1B0C087300163C66 /* summerGrades.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA8F59401B0C087300163C66 /* summerGradesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA8F594E1B0C087300163C66 /* Build configuration list for PBXNativeTarget "summerGradesTests" */;
+			buildPhases = (
+				EA8F593D1B0C087300163C66 /* Sources */,
+				EA8F593E1B0C087300163C66 /* Frameworks */,
+				EA8F593F1B0C087300163C66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA8F59431B0C087300163C66 /* PBXTargetDependency */,
+			);
+			name = summerGradesTests;
+			productName = summerGradesTests;
+			productReference = EA8F59411B0C087300163C66 /* summerGradesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA8F59271B0C087300163C66 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Tad Scritchfield";
+				TargetAttributes = {
+					EA8F592E1B0C087300163C66 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					EA8F59401B0C087300163C66 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = EA8F592E1B0C087300163C66;
+					};
+				};
+			};
+			buildConfigurationList = EA8F592A1B0C087300163C66 /* Build configuration list for PBXProject "summerGrades" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA8F59261B0C087300163C66;
+			productRefGroup = EA8F59301B0C087300163C66 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA8F592E1B0C087300163C66 /* summerGrades */,
+				EA8F59401B0C087300163C66 /* summerGradesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA8F592D1B0C087300163C66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA8F59391B0C087300163C66 /* Images.xcassets in Resources */,
+				EA8F593C1B0C087300163C66 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA8F593F1B0C087300163C66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA8F592B1B0C087300163C66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA8F59581B0C0C3C00163C66 /* SAandDCourseViewController.swift in Sources */,
+				EA8F59371B0C087300163C66 /* ViewController.swift in Sources */,
+				EA8F59541B0C0A2300163C66 /* ALCourseViewController.swift in Sources */,
+				EA8F59561B0C0A3D00163C66 /* SECourseViewController.swift in Sources */,
+				EA8F59351B0C087300163C66 /* AppDelegate.swift in Sources */,
+				EA8F59521B0C09F000163C66 /* AICourseViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA8F593D1B0C087300163C66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA8F59481B0C087300163C66 /* summerGradesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EA8F59431B0C087300163C66 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA8F592E1B0C087300163C66 /* summerGrades */;
+			targetProxy = EA8F59421B0C087300163C66 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EA8F593A1B0C087300163C66 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA8F593B1B0C087300163C66 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA8F59491B0C087300163C66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EA8F594A1B0C087300163C66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		EA8F594C1B0C087300163C66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = summerGrades/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EA8F594D1B0C087300163C66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = summerGrades/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EA8F594F1B0C087300163C66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = summerGradesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/summerGrades.app/Contents/MacOS/summerGrades";
+			};
+			name = Debug;
+		};
+		EA8F59501B0C087300163C66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = summerGradesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/summerGrades.app/Contents/MacOS/summerGrades";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA8F592A1B0C087300163C66 /* Build configuration list for PBXProject "summerGrades" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA8F59491B0C087300163C66 /* Debug */,
+				EA8F594A1B0C087300163C66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA8F594B1B0C087300163C66 /* Build configuration list for PBXNativeTarget "summerGrades" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA8F594C1B0C087300163C66 /* Debug */,
+				EA8F594D1B0C087300163C66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EA8F594E1B0C087300163C66 /* Build configuration list for PBXNativeTarget "summerGradesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA8F594F1B0C087300163C66 /* Debug */,
+				EA8F59501B0C087300163C66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA8F59271B0C087300163C66 /* Project object */;
+}
